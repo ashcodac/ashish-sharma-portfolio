@@ -25,14 +25,47 @@
     padding: 0.5rem 1rem;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
   }
   
+  /* Resume Button Hover Effect */
   .resume-btn:hover {
     background: rgba(255, 255, 255, 0.4);
     text-decoration: none;
+    border-color: rgba(255, 255, 255, 0.6);
   }
   
-  .resume-icon {
-    font-size: 1rem;
+  /* Navbar Toggle Button (Hamburger) */
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  /* Mobile Navigation Adjustments */
+  @media (max-width: 991px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  
+    .navbar-nav .nav-item {
+      margin-bottom: 10px;
+    }
+  
+    /* Ensure Resume button appears right below "Contact" */
+    .mobile-resume {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
   }
   
