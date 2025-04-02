@@ -66,7 +66,7 @@
     margin-top: 1rem;
 }
 
-/* --- Project Buttons (Equalized Size) --- */
+/* --- Project Buttons (Fixed Width & Centered) --- */
 .project-btn {
     display: flex;
     align-items: center;
@@ -78,8 +78,9 @@
     padding: 0.75rem 1.5rem;
     border-radius: 8px;
     text-decoration: none;
-    width: 140px; /* ✅ Ensures equal button size */
+    width: 160px; /* ✅ Ensures both buttons are equal width */
     text-align: center;
+    white-space: nowrap; /* ✅ Prevents text from breaking into two lines */
     transition: transform 0.2s ease-in-out, background 0.3s ease-in-out;
 }
 
