@@ -15,7 +15,7 @@ const Projects = () => {
             A React-based application that fetches and displays GitHub user profiles.
           </p>
           <div className="project-links">
-            <a href="https://github.com/yourgithub/github-user-finder" target="_blank" rel="noopener noreferrer" className="project-btn">
+            <a href="https://github.com/ashcodac/github-user-finder" target="_blank" rel="noopener noreferrer" className="project-btn">
               <FaGithub className="icon" /> GitHub
             </a>
             <a href="https://github-user-finder-rust.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-btn">
