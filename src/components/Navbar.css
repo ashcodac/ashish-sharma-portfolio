@@ -1,0 +1,38 @@
+.navbar {
+    padding: 1rem;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    color: #ffffff !important;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #ffffff !important;
+    margin-left: 1rem;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Resume Button Styling */
+  .resume-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .resume-btn:hover {
+    background: rgba(255, 255, 255, 0.4);
+    text-decoration: none;
+  }
+  
+  .resume-icon {
+    font-size: 1rem;
+  }
+  
