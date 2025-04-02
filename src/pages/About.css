@@ -131,6 +131,8 @@
     color: white;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
+    width: 100%;
+    text-align: center;
 }
 
 /* Skill Hover Effect */
@@ -144,6 +146,11 @@
 @media (max-width: 768px) {
     .about-container {
         grid-template-columns: 1fr;
+        text-align: center; /* ✅ Center text for small screens */
+    }
+
+    .quadrant {
+        text-align: center; /* ✅ Ensures all content inside is centered */
     }
 
     .experience {
@@ -152,5 +159,20 @@
 
     .skills {
         grid-column: 1;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr; /* ✅ Stack skills vertically */
+        justify-content: center;
+    }
+
+    .experience-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .company-logo {
+        margin-top: 10px;
     }
 }

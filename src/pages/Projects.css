@@ -1,3 +1,4 @@
+/* --- Projects Container --- */
 .projects-container {
     padding: 2rem;
     display: flex;
@@ -6,6 +7,7 @@
     gap: 2rem;
 }
 
+/* --- Section Title --- */
 .projects-container h2 {
     text-align: center;
     font-size: 1.8rem;
@@ -13,6 +15,7 @@
     color: #ddd;
 }
 
+/* --- Project Card --- */
 .project-card {
     display: flex;
     flex-direction: column;
@@ -33,12 +36,14 @@
     box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.3);
 }
 
+/* --- Project Image --- */
 .project-image {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 1rem;
 }
 
+/* --- Project Info --- */
 .project-info h3 {
     font-size: 1.4rem;
     font-weight: bold;
@@ -52,19 +57,20 @@
     margin-bottom: 1rem;
 }
 
+/* --- Project Links (Buttons) --- */
 .project-links {
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
-    margin-top: 1rem; /* Add spacing above the buttons */
+    margin-top: 1rem;
 }
 
-
-/* Project Buttons */
+/* --- Project Buttons (Equalized Size) --- */
 .project-btn {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
     font-size: 1rem;
     color: white;
@@ -72,6 +78,8 @@
     padding: 0.75rem 1.5rem;
     border-radius: 8px;
     text-decoration: none;
+    width: 140px; /* ✅ Ensures equal button size */
+    text-align: center;
     transition: transform 0.2s ease-in-out, background 0.3s ease-in-out;
 }
 
@@ -80,7 +88,23 @@
     transform: scale(1.1);
 }
 
-/* Icons */
+/* --- Icons --- */
 .icon {
     font-size: 1.2rem;
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+    .project-card {
+        max-width: 100%;
+    }
+
+    .project-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .project-btn {
+        width: 100%; /* ✅ Makes buttons full width on mobile */
+    }
 }
