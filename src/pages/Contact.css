@@ -40,7 +40,8 @@
   .contact-links {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    flex-wrap: wrap;
+    gap: 15px;
     margin-top: 12px;
   }
   
@@ -55,10 +56,11 @@
     justify-content: center;
     width: 48px;
     height: 48px;
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, background 0.2s ease-in-out;
   }
   
   .contact-icon:hover {
     transform: scale(1.15);
+    background: rgba(255, 255, 255, 0.3);
   }
   
