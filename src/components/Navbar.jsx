@@ -9,8 +9,14 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
-        <Link className="navbar-brand" to="/">
-          Ashish Sharma
+        {/* Logo Brand */}
+        <Link className="navbar-brand d-flex align-items-center" to="/" onClick={() => setIsOpen(false)}>
+          <img
+            src="/favicon.png"
+            alt="Ashish Sharma Logo"
+            className="navbar-logo me-2"
+          />
+          <span className="logo-text d-none d-md-inline">Ashish Sharma</span>
         </Link>
 
         {/* Hamburger Menu Button */}
