@@ -26,8 +26,9 @@ This is a personal portfolio website showcasing my skills, work experience, and 
  ├── index.js    # Entry point  
 ```  
 
-## Deployment  
-The website is deployed on GitHub Pages. Any updates pushed to the repository will automatically reflect on the live site.  
+## Deployment
+The website is hosted on Vercel and is accessible at:
+Ashish Sharma Portfolio
 
 ## Installation & Running Locally  
 1. Clone the repository:  
