@@ -76,7 +76,8 @@
 }
 
 /* Position & Tenure */
-.position, .tenure {
+.position,
+.tenure {
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.8);
     margin-top: 5px;
